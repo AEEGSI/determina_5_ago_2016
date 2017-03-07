@@ -175,6 +175,10 @@
 			<xs:enumeration value="MTA2"/>
 			<xs:enumeration value="MTA3"/>
 			<xs:enumeration value="MTIP"/>
+			<xs:enumeration value="TD"/>
+			<xs:enumeration value="TDNR"/>
+			<xs:enumeration value="TDPC"/>
+			<xs:enumeration value="TDR"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:simpleType name="SI-NOType">
