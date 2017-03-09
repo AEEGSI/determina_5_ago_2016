@@ -249,10 +249,19 @@
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:simpleType name="DCodicePODType">
-		<xs:restriction base="xs:string">
-			<xs:minLength value="9"/>
-			<xs:maxLength value="15"/>
-		</xs:restriction>
+		<xs:union>
+			<xs:simpletype>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="NO_POD"/>
+				</xs:restriction>
+			</xs:simpletype>
+			<xs:simpletype>
+				<xs:restriction base="xs:string">
+					<xs:minLength value="9"/>
+					<xs:maxLength value="15"/>
+				</xs:restriction>
+			</xs:simpletype>
+		</xs:union>
 	</xs:simpleType>
 	<xs:simpleType name="TensioneType">
 		<xs:restriction base="xs:string">
@@ -357,7 +366,6 @@
 			<xs:element name="TestataFattura" type="TestataFatturaType"/>
 			<xs:element name="RiepilogoFattura" type="RiepilogoFatturaType"/>
 			<xs:element name="DettaglioPOD" type="DettaglioPODType" minOccurs="0" maxOccurs="unbounded"/>
-			<xs:element name="CorrispettiviNoPOD" type="CorrispettiviType" minOccurs="0" maxOccurs="unbounded"/>
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="TestataFlussoType">
