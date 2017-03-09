@@ -145,9 +145,25 @@
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:simpleType name="AliquotaIVA">
-		<xs:restriction base="xs:string">
-			<xs:pattern value="[0-9]{1,2}[%]?"/>
-		</xs:restriction>
+		<xs:union>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:pattern value="[0-9]{1,2}[%]?"/>
+				</xs:restriction>
+			</xs:simpleType>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="0% -art.26 DPR 633/72"/>
+					<xs:enumeration value="0% -art. 9 DPR 633/72"/>
+					<xs:enumeration value="0% -art.8 comma 1 let.c) DPR 633/72"/>
+					<xs:enumeration value="0% -art.10 DPR 633/72"/>
+					<xs:enumeration value="0% -art.2 DPR 633/72"/>
+					<xs:enumeration value="0% -art.15 DPR 633/72"/>
+					<xs:enumeration value="0% -art. 7-ter DPR 633/72"/>
+					<xs:enumeration value="0% -art. 7-septies DPR 633/72"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:union>
 	</xs:simpleType>
 	<xs:simpleType name="NoteFatturaType">
 		<xs:restriction base="xs:string">
@@ -250,17 +266,17 @@
 	</xs:simpleType>
 	<xs:simpleType name="DCodicePODType">
 		<xs:union>
-			<xs:simpletype>
+			<xs:simpleType>
 				<xs:restriction base="xs:string">
 					<xs:enumeration value="NO_POD"/>
 				</xs:restriction>
-			</xs:simpletype>
-			<xs:simpletype>
+			</xs:simpleType>
+			<xs:simpleType>
 				<xs:restriction base="xs:string">
 					<xs:minLength value="9"/>
 					<xs:maxLength value="15"/>
 				</xs:restriction>
-			</xs:simpletype>
+			</xs:simpleType>
 		</xs:union>
 	</xs:simpleType>
 	<xs:simpleType name="TensioneType">
