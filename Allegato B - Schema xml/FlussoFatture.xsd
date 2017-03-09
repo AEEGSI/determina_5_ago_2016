@@ -262,6 +262,11 @@
 		<xs:restriction base="xs:string">
 			<xs:enumeration value="ORD"/>
 			<xs:enumeration value="AGE"/>
+			<xs:enumeration value="CAM"/>
+			<xs:enumeration value="SOG"/>
+			<xs:enumeration value="IMP"/>
+			<xs:enumeration value="ESE"/>
+			<xs:enumeration value="CON"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:simpleType name="DCodicePODType">
