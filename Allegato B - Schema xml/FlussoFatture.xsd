@@ -209,6 +209,7 @@
 			<xs:enumeration value="SEESEU-A"/>
 			<xs:enumeration value="SEESEU-B"/>
 			<xs:enumeration value="SEESEU-C"/>
+			<xs:enumeration value="SEESEU-D"/>
 			<xs:enumeration value="SSP-B"/>
 		</xs:restriction>
 	</xs:simpleType>
