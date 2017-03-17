@@ -311,7 +311,7 @@
 			<xs:element name="DCTSAnno" type="ValutaType" minOccurs="0"/>
 			<xs:element name="DCTSProgressivo" type="ValutaType" minOccurs="0"/>
 			<xs:element name="DScaglione" type="ScaglioneType" minOccurs="0"/>
-			<xs:element name="DQuantità" type="ValutaType" minOccurs="0"/>
+			<xs:element name="DQuantita" type="ValutaType" minOccurs="0"/>
 			<xs:element name="DCorrispettivoUnitario" type="CorrispettivoType" minOccurs="0"/>
 			<xs:element name="DCodiceIVA" type="CodiceIVAType"/>
 			<xs:element name="DImporto" type="ValutaType"/>
@@ -324,6 +324,7 @@
 			<xs:element name="DDTPotenzaDisponibile" type="PotenzaType"/>
 			<xs:element name="DDCTipologiaContrattuale" type="TipologiaContrattualeType" minOccurs="0"/>
 			<xs:element name="DDCTariffaDistribuzione" type="TariffaType" minOccurs="0"/>
+			<xs:element name="DDCResidenzaAnagrafica" type="SI-NOType" minOccurs="0"/>
 			<xs:element name="DDCProduttoriPuriPerizia" type="SI-NOType" minOccurs="0"/>
 			<xs:element name="DDCFornituraEnergivora" type="SI-NOType" minOccurs="0"/>
 			<xs:element name="DDCSistEfficEquivalenti" type="SistemiEfficientiType" minOccurs="0"/>

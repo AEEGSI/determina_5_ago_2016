@@ -311,7 +311,7 @@
 			<xs:element name="DCTSAnno" type="ValutaType" minOccurs="0"/>
 			<xs:element name="DCTSProgressivo" type="ValutaType" minOccurs="0"/>
 			<xs:element name="DScaglione" type="ScaglioneType" minOccurs="0"/>
-			<xs:element name="DQuantità" type="ValutaType" minOccurs="0"/>
+			<xs:element name="DQuantita" type="ValutaType" minOccurs="0"/>
 			<xs:element name="DCorrispettivoUnitario" type="CorrispettivoType" minOccurs="0"/>
 			<xs:element name="DCodiceIVA" type="CodiceIVAType"/>
 			<xs:element name="DImporto" type="ValutaType"/>
