@@ -20,9 +20,9 @@
 			<xs:pattern value="[0-9]{1,9}"/>
 		</xs:restriction>
 	</xs:simpleType>
-	<xs:simpleType name="PIVAType">
+	<xs:simpleType name="CodFiscaleType">
 		<xs:restriction base="xs:string">
-			<xs:pattern value="\d{11}"/>
+			<xs:pattern value="[A-Z]{6}[0-9A-Z][0-9LMNPQRSTUV][ABCDEHLMPRST][0-9LMNPQRSTUV]{2}[A-Z][0-9LMNPQRSTUV]{3}[A-Z]"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:simpleType name="ContrattoDispacciamentoType">
@@ -364,7 +364,7 @@
 			<xs:element name="TDataEmissioneFattura" type="DataType"/>
 			<xs:element name="TDataScadenzaFattura" type="DataType"/>
 			<xs:element name="TRagioneSocialeMittente" type="RagioneSocialeType"/>
-			<xs:element name="TPartitaIVAMittente" type="PIVAType"/>
+			<xs:element name="TCodFiscaleMittente" type="CodFiscaleType"/>
 			<xs:element name="TIndirizzoMittente" type="IndirizzoType"/>
 			<xs:element name="TCAPMittente" type="CAPType"/>
 			<xs:element name="TLocalitaMittente" type="LocalitaType"/>
@@ -372,7 +372,7 @@
 			<xs:element name="TNazioneMittente" type="NazioneType"/>
 			<xs:element name="TIBANMittente" type="IBANType"/>
 			<xs:element name="TRagioneSocialeDestinatario" type="RagioneSocialeType"/>
-			<xs:element name="TPartitaIVADestinatario" type="PIVAType"/>
+			<xs:element name="TCodFiscaleDestinatario" type="CodFiscaleType"/>
 			<xs:element name="TIndirizzoDestinatario" type="IndirizzoType"/>
 			<xs:element name="TCAPDestinatario" type="CAPType"/>
 			<xs:element name="TLocalitaDestinatario" type="LocalitaType"/>

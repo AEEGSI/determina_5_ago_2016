@@ -7,7 +7,7 @@
 		<TDataEmissioneFattura>22/02/2016</TDataEmissioneFattura>
 		<TDataScadenzaFattura>25/03/2016</TDataScadenzaFattura>
 		<TRagioneSocialeMittente>DIS EE SpA</TRagioneSocialeMittente>
-		<TPartitaIVAMittente>12345678901</TPartitaIVAMittente>
+		<TCodFiscaleMittente>SCHFPP03A68A662G</TCodFiscaleMittente>
 		<TIndirizzoMittente>Piazzale Trionfale, 23</TIndirizzoMittente>
 		<TCAPMittente>00185</TCAPMittente>
 		<TLocalitaMittente>Roma</TLocalitaMittente>
@@ -15,7 +15,7 @@
 		<TNazioneMittente>IT</TNazioneMittente>
 		<TIBANMittente>IT02L1234512345123456789012</TIBANMittente>
 		<TRagioneSocialeDestinatario>VEN SPA</TRagioneSocialeDestinatario>
-		<TPartitaIVADestinatario>10987654321</TPartitaIVADestinatario>
+		<TCodFiscaleDestinatario>CPPCLL09C10L219R</TCodFiscaleDestinatario>
 		<TIndirizzoDestinatario>Via Laurentina, 100</TIndirizzoDestinatario>
 		<TCAPDestinatario>00123</TCAPDestinatario>
 		<TLocalitaDestinatario>Roma</TLocalitaDestinatario>
